@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gallery, SEETA University</title>
+  <meta name="description" content="SEETA University gallery, campus, students, events, and facilities. Apply via the external form." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container inner">
+    <a class="brand" href="index.html">
+      <div class="mark" aria-hidden="true"></div>
+      <div class="name">SEETA University</div>
+    </a>
+
+    <nav class="nav" aria-label="Top navigation">
+      <a data-nav href="index.html">Home</a>
+      <a data-nav href="about.html">About</a>
+      <a data-nav href="founder.html">Founder</a>
+      <a data-nav href="gallery.html">Gallery</a>
+      <a data-nav href="courses.html">Courses</a>
+      <a data-nav href="contact.html">Contact</a>
+    </nav>
+
+    <div class="cta">
+      <a class="btn primary" data-apply-link href="#">APPLY</a>
+      <button class="menuBtn" id="menuBtn" aria-label="Open menu">Menu</button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="panel" role="dialog" aria-label="Mobile menu">
+    <div class="row">
+      <div class="name" style="font-weight:800">SEETA University</div>
+      <button class="btn small" id="drawerClose">Close</button>
+    </div>
+    <nav aria-label="Mobile navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="founder.html">Founder</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="courses.html">Courses</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="actions">
+      <a class="btn primary" data-apply-link href="#">Apply Now</a>
+      <a class="btn" href="courses.html">Explore Courses</a>
+    </div>
+    <div class="social" style="margin-top:auto">
+      <a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </div>
+</div>
+
+<section class="pageHead">
+  <div class="container">
+    <h1>Gallery</h1>
+    <p>Explore campus, students, events, and facilities. Select a filter to browse quickly.</p>
+    <div class="actions">
+      <a class="btn primary" data-apply-link href="#">APPLY</a>
+      <a class="btn" href="courses.html">Explore Courses</a>
+    </div>
+  </div>
+</section>
+
+<section class="section tight">
+  <div class="container">
+    <div class="filters" style="grid-template-columns:repeat(12,1fr)">
+      <div class="field" style="grid-column:span 6">
+        <label for="galleryFilter">Filter</label>
+        <select id="galleryFilter">
+          <option value="">All</option>
+          <option value="campus">Campus</option>
+          <option value="students">Students</option>
+          <option value="events">Events</option>
+          <option value="facilities">Facilities</option>
+        </select>
+      </div>
+      <div class="field" style="grid-column:span 6">
+        <label>Apply</label>
+        <a class="btn primary" data-apply-link href="#">Apply Now</a>
+      </div>
+    </div>
+
+    <div style="height:14px"></div>
+
+    <div class="grid cards" id="galleryGrid" style="grid-template-columns:repeat(12,1fr)">
+      <div class="post span-4" data-item data-cat="students">
+        <img src="assets/img/gallery-lecture.jpg" alt="Lecture" />
+        <div class="body">
+          <p class="date">Students</p>
+          <h3>Lecture</h3>
+          <p>Structured learning sessions and guided engagement.</p>
+          <button class="btn small" data-open data-src="assets/img/gallery-lecture.jpg" data-cap="Lecture">Open</button>
+        </div>
+      </div>
+
+      <div class="post span-4" data-item data-cat="students">
+        <img src="assets/img/gallery-exam.jpg" alt="Exam time" />
+        <div class="body">
+          <p class="date">Students</p>
+          <h3>Exam time</h3>
+          <p>Assessment periods built around fairness and support.</p>
+          <button class="btn small" data-open data-src="assets/img/gallery-exam.jpg" data-cap="Exam time">Open</button>
+        </div>
+      </div>
+
+      <div class="post span-4" data-item data-cat="campus">
+        <img src="assets/img/gallery-main-building.jpg" alt="Main building" />
+        <div class="body">
+          <p class="date">Campus</p>
+          <h3>Main building</h3>
+          <p>Core campus spaces for learning and administration.</p>
+          <button class="btn small" data-open data-src="assets/img/gallery-main-building.jpg" data-cap="Main building">Open</button>
+        </div>
+      </div>
+
+      <div class="post span-4" data-item data-cat="facilities">
+        <img src="assets/img/gallery-football.jpg" alt="Football pitch" />
+        <div class="body">
+          <p class="date">Facilities</p>
+          <h3>Football pitch</h3>
+          <p>Student sport and community activity spaces.</p>
+          <button class="btn small" data-open data-src="assets/img/gallery-football.jpg" data-cap="Football pitch">Open</button>
+        </div>
+      </div>
+
+      <div class="post span-4" data-item data-cat="events">
+        <img src="assets/img/gallery-activities.jpg" alt="Student activities" />
+        <div class="body">
+          <p class="date">Events</p>
+          <h3>Student activities</h3>
+          <p>Leadership, service, and campus engagement.</p>
+          <button class="btn small" data-open data-src="assets/img/gallery-activities.jpg" data-cap="Student activities">Open</button>
+        </div>
+      </div>
+
+      <div class="post span-4" data-item data-cat="facilities">
+        <img src="assets/img/school-computing.jpg" alt="Learning lab" />
+        <div class="body">
+          <p class="date">Facilities</p>
+          <h3>Learning lab</h3>
+          <p>Hands-on spaces for skill growth and guided practice.</p>
+          <button class="btn small" data-open data-src="assets/img/school-computing.jpg" data-cap="Learning lab">Open</button>
+        </div>
+      </div>
+    </div>
+
+    <div style="height:18px"></div>
+
+    <div class="ctaBlock">
+      <div>
+        <h2>Start your application</h2>
+        <p>Applications run through the external form linked on Apply.</p>
+      </div>
+      <div>
+        <a class="btn primary" data-apply-link href="#">APPLY</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="box">
+    <div class="imgWrap">
+      <img src="" alt="Gallery image" />
+    </div>
+    <div class="bar">
+      <div class="cap" data-cap></div>
+      <button class="btn small" id="lightboxClose">Close</button>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="grid">
+      <div class="block">
+        <h3>Quick links</h3>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+        <a data-apply-link href="#">Apply</a>
+      </div>
+
+      <div class="block">
+        <h3>Contact</h3>
+        <div class="small">Email: info@su.ac.ug</div>
+        <div class="small">Phone: +256 000 000 000</div>
+        <div class="small">Mobile: +256 000 000 000</div>
+        <div class="small">Location: Mbalala, Mukono, Uganda</div>
+      </div>
+
+      <div class="block">
+        <h3>Hours</h3>
+        <div class="small">Monday to Saturday: Open</div>
+        <div class="small">Sunday: Closed</div>
+        <div style="height:12px"></div>
+        <h3>Social</h3>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+
+    <div class="copy">© <span id="year"></span> SEETA University. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = String(new Date().getFullYear());
+</script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/gallery.js"></script>
+</body>
+</html>

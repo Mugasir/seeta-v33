@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Courses and Programs, SEETA University</title>
+  <meta name="description" content="Browse certificates, diplomas, and bachelors programs at SEETA University. Filter by school and level, then apply via the external form." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container inner">
+    <div>Mbalala, Mukono, Uganda</div>
+    <div class="social">
+      <a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container inner">
+    <a class="brand" href="index.html">
+      <div class="mark" aria-hidden="true"></div>
+      <div class="name">SEETA University</div>
+    </a>
+
+    <nav class="nav" aria-label="Top navigation">
+      <a data-nav href="index.html">Home</a>
+      <a data-nav href="about.html">About</a>
+      <a data-nav href="founder.html">Founder</a>
+      <a data-nav href="gallery.html">Gallery</a>
+      <a data-nav href="courses.html">Courses</a>
+      <a data-nav href="contact.html">Contact</a>
+    </nav>
+
+    <div class="cta">
+      <a class="btn primary" data-apply-link href="#">APPLY</a>
+      <button class="menuBtn" id="menuBtn" aria-label="Open menu">Menu</button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="panel" role="dialog" aria-label="Mobile menu">
+    <div class="row">
+      <div class="name" style="font-weight:800">SEETA University</div>
+      <button class="btn small" id="drawerClose">Close</button>
+    </div>
+    <nav aria-label="Mobile navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="founder.html">Founder</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="courses.html">Courses</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="actions">
+      <a class="btn primary" data-apply-link href="#">Apply Now</a>
+      <a class="btn" href="contact.html#contact-form">Request info</a>
+    </div>
+    <div class="social" style="margin-top:auto">
+      <a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </div>
+</div>
+
+<section class="pageHead">
+  <div class="container">
+    <h1>Courses and Programs</h1>
+    <p>Certificates, Diplomas, Bachelors. Filter by school and level, then apply through the external form.</p>
+    <div class="actions">
+      <a class="btn primary" data-apply-link href="#">APPLY</a>
+      <a class="btn" href="#schools">School overviews</a>
+    </div>
+  </div>
+</section>
+
+<section class="section tight">
+  <div class="container">
+    <div class="filters" aria-label="Program filters">
+      <div class="field">
+        <label for="filterSchool">School</label>
+        <select id="filterSchool">
+          <option value="">All</option>
+          <option value="computing and technology">Computing and Technology</option>
+          <option value="law">Law</option>
+          <option value="health sciences">Health Sciences</option>
+          <option value="business and management">Business and Management</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="filterLevel">Level</label>
+        <select id="filterLevel">
+          <option value="">All</option>
+          <option value="certificate">Certificate</option>
+          <option value="diploma">Diploma</option>
+          <option value="bachelors">Bachelors</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="filterSearch">Search</label>
+        <input id="filterSearch" type="search" placeholder="Program name keywords" />
+      </div>
+    </div>
+
+    <div style="height:14px"></div>
+    <div class="card">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap">
+        <div style="color:var(--muted)">Results: <span id="resultCount">0</span></div>
+        <a class="btn primary" data-apply-link href="#">Apply Now</a>
+      </div>
+    </div>
+
+    <div class="programs" id="programList" style="margin-top:14px">
+
+      <div class="program" data-program data-school="Computing and Technology" data-level="Certificate"
+           data-name="Certificate in Software Engineering" data-text="software engineering coding projects labs">
+        <div class="body">
+          <h3>Certificate in Software Engineering</h3>
+          <div class="badges">
+            <div class="badge">Computing and Technology</div>
+            <div class="badge">Certificate</div>
+          </div>
+          <p>Entry-level preparation for coding fundamentals, project practice, and lab-based learning.</p>
+          <div class="actions">
+            <a class="btn primary" data-apply-link href="#">Apply</a>
+            <a class="btn" href="contact.html#contact-form">Request info</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="program" data-program data-school="Computing and Technology" data-level="Diploma"
+           data-name="Diploma in Cybersecurity" data-text="cybersecurity networks systems labs practice">
+        <div class="body">
+          <h3>Diploma in Cybersecurity</h3>
+          <div class="badges">
+            <div class="badge">Computing and Technology</div>
+            <div class="badge">Diploma</div>
+          </div>
+          <p>Training in security fundamentals, safe systems practice, and structured lab exposure.</p>
+          <div class="actions">
+            <a class="btn primary" data-apply-link href="#">Apply</a>
+            <a class="btn" href="contact.html#contact-form">Request info</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="program" data-program data-school="Computing and Technology" data-level="Bachelors"
+           data-name="Bachelors in Data Science" data-text="data science analysis statistics projects">
+        <div class="body">
+          <h3>Bachelors in Data Science</h3>
+          <div class="badges">
+            <div class="badge">Computing and Technology</div>
+            <div class="badge">Bachelors</div>
+          </div>
+          <p>Focused preparation for analysis, applied methods, and project-driven learning outcomes.</p>
+          <div class="actions">
+            <a class="btn primary" data-apply-link href="#">Apply</a>
+            <a class="btn" href="contact.html#contact-form">Request info</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="program" data-program data-school="Law" data-level="Diploma"
+           data-name="Diploma in Law" data-text="law practical training moot court clinic">
+        <div class="body">
+          <h3>Diploma in Law</h3>
+          <div class="badges">
+            <div class="badge">Law</div>
+            <div class="badge">Diploma</div>
+          </div>
+          <p>Core legal education with practical training supported by structured exercises and placements.</p>
+          <div class="actions">
+            <a class="btn primary" data-apply-link href="#">Apply</a>
+            <a class="btn" href="contact.html#contact-form">Request info</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="program" data-program data-school="Health Sciences" data-level="Diploma"
+           data-name="Diploma in Nursing" data-text="nursing clinical experience public health">
+        <div class="body">
+          <h3>Diploma in Nursing</h3>
+          <div class="badges">
+            <div class="badge">Health Sciences</div>
+            <div class="badge">Diploma</div>
+          </div>
+          <p>Competence-focused preparation supported by clinical experience and supervised learning.</p>
+          <div class="actions">
+            <a class="btn primary" data-apply-link href="#">Apply</a>
+            <a class="btn" href="contact.html#contact-form">Request info</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="program" data-program data-school="Business and Management" data-level="Bachelors"
+           data-name="Bachelors in Business Administration" data-text="administration accounting marketing finance hr">
+        <div class="body">
+          <h3>Bachelors in Business Administration</h3>
+          <div class="badges">
+            <div class="badge">Business and Management</div>
+            <div class="badge">Bachelors</div>
+          </div>
+          <p>Applied learning across core business functions and professional readiness pathways.</p>
+          <div class="actions">
+            <a class="btn primary" data-apply-link href="#">Apply</a>
+            <a class="btn" href="contact.html#contact-form">Request info</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="height:18px"></div>
+
+    <div class="ctaBlock">
+      <div>
+        <h2>Apply Now</h2>
+        <p>Use the Apply button to open the external application form in a new tab.</p>
+      </div>
+      <div>
+        <a class="btn primary" data-apply-link href="#">APPLY</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="schools">
+  <div class="container">
+    <h2 class="sectionTitle">School details</h2>
+    <p class="lead">These overviews support decision-making and clarify the focus areas across the university.</p>
+
+    <div style="height:16px"></div>
+
+    <div class="featureBlock">
+      <div class="media"><img src="assets/img/school-computing.jpg" alt="School of Computing and Technology" /></div>
+      <div class="text">
+        <h3>School of Computing and Technology</h3>
+        <p>This school focuses on modern computing skills built through structured practice and project work. Programs include software engineering, cybersecurity, data science, and AI. Students learn through labs and guided hands-on activities that mirror industry workflows. The school supports career readiness through practical assignments, teamwork, and partnerships that expose learners to real expectations in technology environments.</p>
+        <div class="applyRow"><a class="btn primary" data-apply-link href="#">Apply Now</a></div>
+      </div>
+    </div>
+
+    <div style="height:14px"></div>
+
+    <div class="featureBlock right">
+      <div class="media"><img src="assets/img/school-law.jpg" alt="School of Law" /></div>
+      <div class="text">
+        <h3>School of Law</h3>
+        <p>The School of Law provides breadth in legal education while keeping training grounded in practice. Students engage with core areas of law and develop skills in reasoning, writing, and advocacy. Practical exposure runs through moot courts, legal clinics, and internship pathways, supporting professional confidence and a clear understanding of legal service in real contexts.</p>
+        <div class="applyRow"><a class="btn primary" data-apply-link href="#">Apply Now</a></div>
+      </div>
+    </div>
+
+    <div style="height:14px"></div>
+
+    <div class="featureBlock">
+      <div class="media"><img src="assets/img/school-health.jpg" alt="School of Health Sciences" /></div>
+      <div class="text">
+        <h3>School of Health Sciences</h3>
+        <p>This school supports health-focused training with attention to competence and responsible practice. Programs include pharmacy and nursing, alongside public health related disciplines. Clinical experience and supervised learning help students build confidence in real service settings. The approach emphasizes skill, ethics, and a clear understanding of care within community health needs.</p>
+        <div class="applyRow"><a class="btn primary" data-apply-link href="#">Apply Now</a></div>
+      </div>
+    </div>
+
+    <div style="height:14px"></div>
+
+    <div class="featureBlock right">
+      <div class="media"><img src="assets/img/school-business.jpg" alt="School of Business and Management" /></div>
+      <div class="text">
+        <h3>School of Business and Management</h3>
+        <p>The School of Business and Management prepares students for professional performance through applied learning and structured progression. Areas include accounting, finance, marketing, HR, procurement, economics, and administration. Coursework links concepts to practical tasks such as planning, reporting, communication, and decision-making. Students graduate with stronger readiness for business environments and continued professional development.</p>
+        <div class="applyRow"><a class="btn primary" data-apply-link href="#">Apply Now</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="grid">
+      <div class="block">
+        <h3>Quick links</h3>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+        <a data-apply-link href="#">Apply</a>
+      </div>
+
+      <div class="block">
+        <h3>Contact</h3>
+        <div class="small">Email: info@su.ac.ug</div>
+        <div class="small">Phone: +256 000 000 000</div>
+        <div class="small">Mobile: +256 000 000 000</div>
+        <div class="small">Location: Mbalala, Mukono, Uganda</div>
+      </div>
+
+      <div class="block">
+        <h3>Hours</h3>
+        <div class="small">Monday to Saturday: Open</div>
+        <div class="small">Sunday: Closed</div>
+        <div style="height:12px"></div>
+        <h3>Social</h3>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+
+    <div class="copy">© <span id="year"></span> SEETA University. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = String(new Date().getFullYear());
+</script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/courses.js"></script>
+</body>
+</html>
